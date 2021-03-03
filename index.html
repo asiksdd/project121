@@ -1,0 +1,180 @@
+<html>
+<head>
+  <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/2.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <center>
+      <h3 class="btn btn-danger heading">CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET</h3>
+      <br>
+      <span style="color: red;">GOOGLE LENS<img src="gl.png" style="  width: 70px;height: 70px;"></span>
+      <h2>VS</h2>
+      <h3 class="btn btn-primary heading">MOBILENET</h3>
+      <hr>
+
+      <div class="text_images_and_result" style="
+      background-color:grey;
+      width: 80%;
+      height: 50%;
+      padding: 20px;
+      border-radius: 30px;
+      margin-bottom: 0px;
+      margin-top: 15px;
+      box-shadow: 5px 5px 15px black;">
+      <li>
+        <b>Test Image - </b>
+        <img src="shoes.jpeg"  style="    width: 200px;
+        height: 200px;
+        border-radius: 40px;" class="img_responsive">
+    </li>
+    <h5>Output on <b>Google Lens - Canvas shoes</b></h5>
+    <span></span>
+    <h5>Output on <b>Mobilnet Project - Running Shoes</b></h5>
+    <span></span>
+
+    <div class="mini_result">
+        <h4>Result - </h4>
+
+        <h4>GOOGLE LENS Is More Accurate</h4>
+    </div>
+</div>
+
+
+<div class="text_images_and_result" style="
+background-color:grey;
+width: 80%;
+height: 50%;
+padding: 20px;
+border-radius: 30px;
+margin-bottom: 0px;
+margin-top: 15px;
+box-shadow: 5px 5px 15px black;">
+    <li>
+      <b>Test Image - </b>
+      <img src="bed.jpeg" class="img_responsive" style="    width: 200px;
+      height: 200px;
+      border-radius: 40px;">
+  </li>
+  <h5>Output on <b>Google Lens -  Bed, Pillow, Blanket</b></h5>
+  <span></span>
+  <h5>Output on <b>Mobilnet Project - bathtub, bathing tub, bath, tub</b></h5>
+  <span></span>
+
+  <div class="mini_result">
+      <h4>Result - </h4>
+   <h4>GOOGLE LENS Is More Accurate
+  </h4>
+  </div>
+</div>
+
+
+<div class="text_images_and_result" style="
+background-color:grey;
+width: 80%;
+height: 50%;
+padding: 20px;
+border-radius: 30px;
+margin-bottom: 0px;
+margin-top: 15px;
+box-shadow: 5px 5px 15px black;">
+    <li>
+      <b>Test Image - </b>
+      <img src="bottle.jpeg"  style="    width: 200px;
+      height: 200px;
+      border-radius: 40px;" class="img_responsive">
+  </li>
+  <h5>Output on <b>Google Lens - Water Bottle</b></h5>
+  <span></span>
+  <h5>Output on <b>Mobilnet Project - Water Bottle</b></h5>
+  <span></span>
+
+  <div class="mini_result">
+      <h4>Result - </h4>
+      <h4>Draw</h4>
+  </div>
+</div>
+
+
+<div class="text_images_and_result" style="
+background-color:grey;
+width: 80%;
+height: 50%;
+padding: 20px;
+border-radius: 30px;
+margin-bottom: 0px;
+margin-top: 15px;
+box-shadow: 5px 5px 15px black;">
+    <li>
+      <b>Test Image - </b>
+      <img src="hp.jpeg"  style="    width: 200px;
+      height: 200px;
+      border-radius: 40px;"  class="img_responsive">
+  </li>
+  <h5>Output on <b>Google Lens - Headphones</b></h5>
+  <span></span>
+  <h5>Output on <b>Mobilnet Project - Microphone, Mike</b></h5>
+  <span></span>
+
+  <div class="mini_result">
+      <h4>Result - </h4>
+
+      <h4>GOOGLE LENS Is More Accurate</h4>
+  </div>
+</div>
+
+
+<div class="text_images_and_result" style="
+background-color:grey;
+width: 80%;
+height: 50%;
+padding: 20px;
+border-radius: 30px;
+margin-bottom: 0px;
+margin-top: 15px;
+box-shadow: 5px 5px 15px black;">
+    <li>
+      <b>Test Image - </b>
+      <img src="t.jpeg"  style="    width: 200px;
+      height: 200px;
+      border-radius: 40px;" class="img_responsive">
+  </li>
+  <h5>Output on <b>Google Lens -  Soft toy</b></h5>
+  <span></span>
+  <h5>Output on <b>Mobilnet Project - Ski Mask</b></h5>
+  <span></span>
+
+  <div class="mini_result">
+      <h4>Result - </h4>
+
+      <h4>GOOGLE LENS Is More Accurate</h4>
+  </div>
+</div>
+
+<div class="overall" style="
+background-color:pink;
+width: 80%;
+height: 15%;
+padding: 20px;
+border-radius: 30px;
+margin-bottom: 0px;
+margin-top: 15px;
+box-shadow: 5px 5px 15px black;
+color: purple;
+font-size: 17px;">
+<p>I have tested 5 images
+  GOOGLE LENS have predicted 4 of them more accurately. And MOBILENET was less accurately
+  <br><br/>So according to my case study GOOGLE LENS is more Accurate</p>
+    </div>
+
+    </center>
+  </body>
+  </html>
